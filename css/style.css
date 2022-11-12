@@ -24,6 +24,7 @@
 }
 
 body {
+    width: 1440px;
     background-color: #ffffff;
     font-family: 'Inter';
     padding-left: 236px;
@@ -299,7 +300,9 @@ body {
     overflow: hidden;
     /* background-color: red; */
 }
-
+.section_cards:last-child .section_card{
+    width: 270px;
+}
 .card_img_wrapper {
     width: 100%;
     position: relative;
@@ -366,4 +369,23 @@ body {
 }
 .foryou_card{
     width: 270px;
+}
+.hide_card{
+    width: 270px;
+    background-repeat: no-repeat;
+}
+.hide_cards{
+    display: flex;
+}
+.hide_card1{
+    background-image: url('../images/card1.jpg');
+}
+.hide_card2{
+    background-image: url('../images/card1.jpg');
+}
+.hide_card3{
+    background-image: url('../images/card1.jpg');
+}
+.hide_card4{
+    background-image: url('../images/card1.jpg');
 }
